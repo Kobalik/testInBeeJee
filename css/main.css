@@ -1,0 +1,60 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    position: fixed;
+}
+
+body{
+    display: block;
+    background-color: #fafafa;
+}
+
+div.main {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+
+    background-color: gray;
+    border: 2px solid black;
+
+    text-align: center;
+    float: left;
+}
+
+div.main h2 {
+    color: white;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.main label {
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 5px;
+
+    color: white;
+    font-weight: 500;
+}
+
+div.main input {
+    float: left;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 5px;
+
+}
+
+div.main button {
+    width: 95%;
+    font-weight: 800;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+
+
